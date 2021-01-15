@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: JinchenHu/composite-actions@v2
+        uses: JinchenHu/composite-actions@v3
         with:
           who-to-greet: "Bandiff W"
           how-are-you: "Not bad"
