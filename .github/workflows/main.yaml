@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-      # - uses: .github/workflows/action
+      - uses: actions/checkout@v2
       - id: foo
         uses: ./.github/actions
         with:
