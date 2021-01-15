@@ -7,7 +7,7 @@ jobs:
     steps:
       # - uses: .github/workflows/action
       - id: foo
-        uses: ./.github/action
+        uses: ./.github/actions
         with:
           who-to-greet: "Mona the Octocat"
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
