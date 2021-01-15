@@ -9,7 +9,7 @@ jobs:
       - id: foo
         uses: JinchenHu/composite-actions@v2
         with:
-          who-to-greet: "Mona the Octocat"
+          who-to-greet: "Bandiff W"
           how-are-you: "Not bad"
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
